@@ -17,13 +17,12 @@ const Hero = () => {
         </div>
         <div className="flex items-center gap-2 font-bold text-center">
           <hr className="w-[70px]" />
-          <p id="job-title" className="text-xs text-black">Software Developer</p>
+          <p id="job-title" className="text-xs text-black">BurritoBowl Haiku</p>
           <hr className="w-[70px]" />
         </div>
         <p className="text-sm font-normal md:w-[450px] text-center w-[300px] ">
-          A passionate Software Developer having an experience of building Web
-          applications with <span className="font-bold">Typescript / React / Angular / C# / Node.js / ASP.NET / MongoDB / MSSQL / TailwindCSS / PrimeNG </span> and some
-          other cool libraries and frameworks.
+          <span className="font-bold">BurritoBowl</span> is a fundamental sense of achieving -extraordinary via Domain Mix (STEM -science,technology,education,Math ofcrs) not gonna tell it's a bendable excercise for Mind Expansion.Personally, an addiction rather then a sense of satiety~
+          
         </p>
         <Link
           to="contact"
@@ -33,7 +32,7 @@ const Hero = () => {
           duration={500}
         >
           <button data-testid="contact-me" className="flex items-center justify-center gap-2 p-2 px-4 py-2 text-xs text-white duration-300 bg-black rounded hover:opacity-80 group" aria-label="Contact Me">
-            <p>Contact Me</p>
+            <p>interact.</p>
             <TbSend className="group-hover:rotate-45" />
           </button>
         </Link>
