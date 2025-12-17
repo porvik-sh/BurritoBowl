@@ -19,7 +19,7 @@ const Github = () => {
           <div className="flex flex-col items-center justify-center text-center">
             <a
               target="_blank"
-              href="https://github.com/klubinskak?tab=repositories"
+              href="https://github.com/porvik-sh?tab=repositories"
             >
               <AiFillGithub className="transition-transform cursor-pointer hover:translate-y-1" />
             </a>
@@ -31,7 +31,7 @@ const Github = () => {
           viewport={{ once: false }}
           transition={{ duration: 0.5 }}>
           <Githubcalendar
-            username="klubinskak"
+            username="porvik-sh"
             blockSize={15}
             blockMargin={5}
             fontSize={16}
