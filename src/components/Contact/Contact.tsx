@@ -21,23 +21,23 @@ const Contact = () => {
             className="flex flex-col items-center justify-center space-y-4">
             <Container
               title="Email"
-              link="mailto:klubinskaklaudia@gmail.com"
+              link="mailto:work4xoxo@gmail.com"
               icon={<MdEmail size={32} />}
             />
             <Container
               title="Linkedin"
-              link="https://www.linkedin.com/in/klaudiaklubinska/"
+              link="https://www.linkedin.com/in/porvik-sharma-3b4b621b4/"
               icon={<AiFillLinkedin size={32} />}
             />
             <Container
               title="Github"
-              link="https://github.com/klubinskak?tab=repositories"
+              link="https://github.com/porvik-sh"
               icon={<BsGithub size={29} />}
             />
           </div>
           <div
             className="space-y-2 text-center sm:text-left">
-            <p className="py-2 mt-10 font-bold md:mt-0 text-xl">Send me a message </p>
+            <p className="py-2 mt-10 font-bold md:mt-0 text-xl">Send me Senseful message.</p>
             <ContactForm />
           </div>
         </div>
