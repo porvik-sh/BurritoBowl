@@ -27,12 +27,12 @@ const Journey = () => {
         <hr className="w-10 h-1 mx-auto my-2 bg-[#839788] border-0 rounded" />
         <div className="flex gap-[50px] py-5">
           <div className="flex items-center gap-2">
-            <IoIosSchool />
-            <p>Education</p>
+            <MdWork/>
+            <p>DevOps</p>
           </div>
           <div className="flex items-center gap-2">
-            <MdWork />
-            <p>Experience</p>
+            <IoIosSchool />
+            <p>Medicine</p>
           </div>
         </div>
         <Timeline />
