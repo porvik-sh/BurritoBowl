@@ -12,8 +12,8 @@ export default function App({ Component, pageProps }: AppProps) {
     <ThemeWrapper>
       <ChakraProvider>
         <Head>
-        <title>Klaudia Klubinska</title>
-        <meta name="description" content='Klaudia Klubinska, software developer - my portfolio.' key="desc"/>
+        <title>BurritoBowl</title>
+        <meta name="description" content='BurritoBowl - my domain.' key="desc"/>
         </Head>
         <Script
         strategy="afterInteractive"
