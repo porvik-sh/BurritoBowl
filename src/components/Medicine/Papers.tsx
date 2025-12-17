@@ -10,7 +10,7 @@ import CustomText from "../Projects/CustomText";
 import styles from "../../styles";
 import { motion } from "framer-motion";
 import { staggerContainer } from "../../utils/motion";
-import Link from "Next/link";
+import Link from "next/link";
 
 function Papers() {
   return (
