@@ -7,7 +7,7 @@ const Type = () => {
     <div className='font-bold bg-[#839788] p-2 text-white'>
       <Typewriter
         options={{
-          strings: ["Hi, I'm Klaudia! "],
+          strings: ["Hi, I'm Porvik! "],
           autoStart: true,
           loop: true,
           deleteSpeed: 100
