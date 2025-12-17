@@ -6,7 +6,6 @@ import Link from "next/link";
 import { Variants, motion } from "framer-motion";
 import Image from "next/image";
 import { navVariants } from "@/utils/motion";
-
 interface NavItems {
   label: string;
   page: string;
@@ -14,31 +13,37 @@ interface NavItems {
 }
 
 const NAV_ITEMS: Array<NavItems> = [
+  
   {
     label: "Home",
-    page: "#home",
+    page: "/",
     index: 0,
   },
   {
-    label: "About",
-    page: "#about",
+    label: "Medicine🩺",
+    page: "#MedSkills",
     index: 1,
   },
   {
-    label: "Skills",
-    page: "#skills",
+    label: "Tech~Stack",
+    page: "#Tech-Stack",
     index: 2,
   },
   {
-    label: "Projects",
-    page: "#projects",
+    label: "Philosphy",
+    page: "/PhilosphyPage",
     index: 3,
   },
-  {
-    label: "Contact",
-    page: "#contact",
+  /*{
+    label: "Neurobionics",
+    page: "#Neurobionics",
     index: 4,
   },
+   {
+    label: "INVENTORY*",
+    page: "#INVENTORY",
+    index: 5,*
+  },*/
 ];
 
 const Navbar = () => {
@@ -110,10 +115,10 @@ const Navbar = () => {
                 width={40}
                 height={40}
                 loading="lazy"
-                src="https://i.ibb.co/tHhKDZZ/Screenshot-2023-03-01-at-11-08-19-removebg-preview.png"
-                alt="woman-computer-icon"
+                src="/navbar-avtar.png"
+                alt="loading picture"
               />
-              <h2 className="text-2xl">klubinska.dev</h2>
+              <h2 className="text-2xl">BurritoBowl.Net</h2>
             </div>
           </Link>
         </div>
@@ -162,3 +167,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
