@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import avatar from "../../assets/avatar2.jpg";
+import avatar2 from "../../assets/avatar2.jpeg";
 import { AiFillFileText } from "react-icons/ai";
 import Link from "next/link";
 import CustomText from "../Projects/CustomText";
@@ -18,11 +18,11 @@ function About() {
           viewport={{ once: false, amount: 0.25 }}
         >
           <CustomText
-            title="About me"
+            title="Medicine"
             textStyles="text-center text-3xl font-bold"
           />
         </motion.div>
-        <hr className="w-10 h-1 mx-auto my-2 bg-[#839788] border-0 rounded" />
+        <hr className="w-24 h-1 mx-auto my-2 bg-[#839788] border-0 rounded" />
         <motion.div
           initial={{ x: 0, opacity: 0 }}
           whileInView={{ x: [-250, 0], opacity: 1 }}
@@ -33,10 +33,10 @@ function About() {
           <div className="flex items-center justify-center py-2">
             <Image
               className="max-w-[220px] max-h-[220px] rounded-[20px]"
-              src={avatar}
+              src={avatar2}
               alt="avatar-about"
               width={220}
-              height={220}
+              height={320}
               placeholder="blur" 
               loading="lazy"
             />
@@ -44,24 +44,19 @@ function About() {
           <div className="flex-col p-2">
             <p className="w-[380px] py-5 text-sm text-center">
               {" "}
-              I am 26 y.o full stack developer. I got interested in web
-              development and mobile development I try to expand my knowledge in
-              those fields. I am open minded person with a willingness to learn
-              and develop. I am open for collaboration and relocate so feel to
-              reach out if you like my work.
+              I have done my MBBS (bachelors of Surgery & Medicine) from PGIMS,Rhotak, under- National Medicine Council , New Delhi.
             </p>
             <div className="flex items-center justify-center">
               <Link
-                href="/resume/cv-klaudiaklubinska.pdf"
+                href="/resume/certificate.pdf"
                 target="_blank"
                 download
               >
                 <button
-                  aria-label="Download cv"
+                  aria-label="Certification."
                   className="flex justify-center items-center bg-black rounded-[7px] text-white text-xs p-2 px-3 gap-2"
                 >
-                  <p>Download cv</p>
-                  <AiFillFileText />
+                  <p>Download Certification.</p>
                 </button>
               </Link>
             </div>
