@@ -83,14 +83,14 @@ const Timeline = () => {
           contentStyle={{
             background: themeStatus === 'dark' ? '#22223b' : '#F3F4F6', color: theme === 'dark' ? 'white' : 'black'
           }}
-          date="september 2021 - february 2022"
+          date="STS_2024"
           iconStyle={{ background: "#839788", color: "#fff" }}
           icon={<IoSchool />}
         >
-          <h3 className="vertical-timeline-element-title font-bold">Technical and IT Technology Education</h3>
-          <h4 className="text-sm text-gray-400 vertical-timeline-element-subtitle">Erasmus exchange</h4>
+          <h3 className="vertical-timeline-element-title font-bold">My First Medicine and IT integration Research.</h3>
+          <h4 className="text-sm text-gray-400 vertical-timeline-element-subtitle">Indian Council of Medicine & Research ,New Delhi</h4>
           <p>
-            Università degli Studi di Padova
+            
           </p>
         </VerticalTimelineElement>
 
@@ -101,14 +101,14 @@ const Timeline = () => {
           contentStyle={{
             background: themeStatus === 'dark' ? '#22223b' : '#F3F4F6', color: theme === 'dark' ? 'white' : 'black'
           }}
-          date="october 2018 - february 2022"
+          date="April 2021 - March 2027"
           iconStyle={{ background: "#839788", color: "#fff" }}
           icon={<IoSchool />}
         >
-          <h3 className="vertical-timeline-element-title font-bold">Technical and IT Technology Education</h3>
-          <h4 className="text-sm text-gray-400 vertical-timeline-element-subtitle">Bachelor Degree</h4>
+          <h3 className="vertical-timeline-element-title font-bold">CLINICAL ROLE🩺</h3>
+          <h4 className="text-sm text-gray-400 vertical-timeline-element-subtitle">Bachelor of Medicine and Bachelors of Surgery</h4>
           <p>
-            Pedagogical University of Krakow
+            Pt. B. D. SHARMA UNIVERSITY OF HEALTH SCIENCES, ROHTAK
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
