@@ -28,7 +28,7 @@ import { staggerContainer } from "@/utils/motion";
 
 function Skills() {
   return (
-    <section id="skills" className={`${styles.paddings}`}>
+    <section id="Tech-Stack" className={`${styles.paddings}`}>
       <div className="flex flex-col justify-center items-center">
         <motion.div
           variants={staggerContainer()}
@@ -37,8 +37,8 @@ function Skills() {
           viewport={{ once: false, amount: 0.25 }}
         >
           <CustomText
-            title="Skills"
-            textStyles="text-center text-3xl font-bold"
+            title="TechSkills"
+            textStyles="text-center text-2xl font-bold"
           />
         </motion.div>
         <hr className="w-10 h-1 mx-auto my-2 bg-[#839788] border-0 rounded" />
