@@ -20,4 +20,4 @@ const Skill: NextPage<Props> = (props) => {
   )
 }
 
-export default Skill
+export default Skill;
