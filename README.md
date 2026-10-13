@@ -38,4 +38,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 Forked and Thanks to https://github.com/klubinskak or Klubinska.dev
 
-Created by Porvik Sharma , visit @ burritobowl.vercel.app
+Created by Porvik Sharma , visit @ https://burritobowl.vercel.app/
